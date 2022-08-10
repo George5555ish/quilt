@@ -56,7 +56,7 @@ export const Mainpage: React.FC<MainpageProps> = () => {
   );
 
   return (
-    <div className="relative flex flex-row justify-start">
+    <div className="flex flex-row justify-start mainpage_hc_container">
       <Sidebar />
       <div className="dapp-content dapp-bg w-full">
         {isGunLogged ? (

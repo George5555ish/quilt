@@ -146,9 +146,9 @@ export const Settings: React.FC<SettingsProps> = () => {
   }, [friends, initializedFriendsList]);
 
   return (
-    <div className="relative flex h-[82vh] flex-row justify-center">
+    <div className="relative flex h-[82vh] flex-row justify-center settings_hc_container">
       <Sidebar />
-      <div className="submenu-bg w-1/5 text-xl">
+      <div className="submenu-bg w-1/5 text-xl dropdown_hc_main">
         <Dropdown />
       </div>
 

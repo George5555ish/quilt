@@ -146,10 +146,10 @@ export const AddFriends: React.FC<AddFriendsProps> = () => {
   }, [friends, initializedFriendsList]);
 
   return (
-    <div className="relative flex h-[82vh] flex-row justify-center">
+    <div className="relative flex h-[82vh] flex-row justify-center addfriends_hc_container">
       <Sidebar />
-      <div className="submenu-bg w-1/5">
-        <div className="mt-10 flex flex-col px-5">
+      <div className="submenu-bg w-1/5 addfriends_hc_main">
+        <div className="mt-10 flex flex-col px-5 ">
           <input
             id="friend"
             onChange={(e) => {

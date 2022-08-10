@@ -219,7 +219,7 @@ export const Profile: React.FC<ProfileProps> = () => {
   }, [friends, initializedFriendsList]);
 
   return (
-    <div className="relative flex h-[82vh] flex-row justify-center">
+    <div className="relative flex h-[82vh] flex-row justify-center profile_hc_container">
       <Sidebar />
 
       <div className="dapp-bg dapp-content w-full">
@@ -270,7 +270,7 @@ export const Profile: React.FC<ProfileProps> = () => {
 	    <br/>
 	    <br/>
 	    </>}
-            <div className="username">
+            <div className="username username_hc_div">
               <span>Nickname</span>
               <input
                 id="nickname"
@@ -284,7 +284,7 @@ export const Profile: React.FC<ProfileProps> = () => {
               />
             </div>
 
-            <div className="bio-desc mt-10">
+            <div className="bio-desc mt-10 username_hc_div">
               <span>Bio</span>
 
               <textarea className="input-profile w-4/5"></textarea>
